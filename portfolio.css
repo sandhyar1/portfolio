@@ -82,16 +82,15 @@ header {
   text-align:center;
 }
 header .profiledetails img{
-    height:22em;
-    width:15em;
-    border-radius: 20% ;
-    object-fit: cover;
+    height:17em;
+    width:17em;
+    border-radius: 50% ;
+    object-fit: contain;
     margin-bottom: 1rem;
     border:.7rem solid yellowgreen;
 }
 header .profiledetails .name{
-     font-size: 3rem;
-     display:block;
+     font-size: 3.5rem;
      color:#fff;
 }
 header .profiledetails .post {
@@ -103,16 +102,7 @@ header .nav {
 }
 header .nav ul{
     list-style: georgian;
-    padding:2rem 4rem;
-}
-header .nav  ul  li{
-    display:block;
-    padding: 1rem;
-    margin:1.5rem 0;
-    background: #333;
-    color:white;
-    font-size:2rem;
-    border-radius:2rem;
+    padding:1rem 2rem;
 }
 header .nav ul li a{
     display: block;
@@ -170,9 +160,10 @@ header .nav ul li a:hover{
     padding:1rem 0;
 }
 .about .row .info{
-    flex:1 1 48rem;
-    padding:2rem 1rem;
+    flex:1 1 10rem;
+    padding:1rem 15rem;
     padding-left: 6rem;
+    flex-wrap:wrap;
 }
 .about .row .info h3{
     font-size: 2rem;
